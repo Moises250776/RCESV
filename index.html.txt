@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Cristiana - Tu Conexión Celestial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>Radio Cristiana</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link active" data-target="inicio">Inicio</a></li>
+                <li><a href="#" class="nav-link" data-target="noticias">Noticias</a></li>
+                <li><a href="#" class="nav-link" data-target="nosotros">Nuestra Historia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content-area">
+        </main>
+
+    <footer class="audio-player-container">
+        <div class="player-info">
+            <img src="https://via.placeholder.com/60" alt="Logo Radio" id="player-logo">
+            <div class="track-details">
+                <span class="broadcast-title">Señal en Vivo</span>
+                <span class="broadcast-status" id="status-text">Conectando...</span>
+            </div>
+        </div>
+        
+        <div class="player-controls">
+            <button id="play-pause-btn" class="control-btn">
+                <i class="fas fa-play"></i>
+            </button>
+            <div class="volume-container">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="0.8">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
